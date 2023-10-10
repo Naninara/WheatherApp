@@ -8,7 +8,7 @@
 body {
   /* background-color: #669dc4; */
   /* background-color: #cccccc; */
-  background-image: url(../Assests/love.jpg);
+  background-image: url(https://res.cloudinary.com/dggryzgok/image/upload/v1696912949/gcnn6kiszrd5f8ptjghd.jpg);
   backdrop-filter: blur(0.6rem);
   background-size: cover;
   width: auto;
@@ -34,7 +34,7 @@ body {
   height: auto;
   flex-wrap: wrap;
   /* background-color: red; */
-  background-image: url(../Assests/bg-2.jpg);
+  background-image: url(https://res.cloudinary.com/dggryzgok/image/upload/v1696912943/ckvls6ky6t5gmnbubtag.jpg);
   /* background-position: center; */
   background-size: cover;
 

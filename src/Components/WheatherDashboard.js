@@ -47,9 +47,12 @@ const WheatherDashboard = () => {
               <div className="wrapper-1" id="icon-container">
                 <p id="w-type">{data ? data?.weather[0]?.main : "-"}</p>
                 <i className="icon"></i>
-                <h5 id="date">{`${date.getDate()}-${
-                  date.getMonth() + 1
-                }-${date.getFullYear()}`}</h5>
+                <h5 id="date">
+                  on{" "}
+                  {`${date.getDate()}-${
+                    date.getMonth() + 1
+                  }-${date.getFullYear()}`}
+                </h5>
               </div>
             </div>
           </div>
