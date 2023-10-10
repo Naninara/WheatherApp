@@ -33,7 +33,7 @@ const WheatherDashboard = () => {
           <Loader />
         ) : (
           <div className="weather-data">
-            <h1 id="w-temp">{`${data ? data?.main?.temp : 0}`}</h1>
+            <h1 id="w-temp">{`${data ? data?.main?.temp : 0} °F`}</h1>
             <div className="wrapper">
               <h1 id="wc-name">
                 {err && !err.response
@@ -47,7 +47,9 @@ const WheatherDashboard = () => {
               <div className="wrapper-1" id="icon-container">
                 <p id="w-type">{data ? data?.weather[0]?.main : "-"}</p>
                 <i className="icon"></i>
-                <h5 id="date">{`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`}</h5>
+                <h5 id="date">{`${date.getDate()}-${
+                  date.getMonth() + 1
+                }-${date.getFullYear()}`}</h5>
               </div>
             </div>
           </div>
