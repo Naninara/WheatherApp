@@ -33,7 +33,7 @@ const WheatherDashboard = () => {
           <Loader />
         ) : (
           <div className="weather-data">
-            <h1 id="w-temp">{`${data ? data?.main?.temp : 0} °F`}</h1>
+            <h1 id="w-temp">{`${data ? data?.main?.temp : 0}°F`}</h1>
             <div className="wrapper">
               <h1 id="wc-name">
                 {err && !err.response
